@@ -114,11 +114,18 @@ a {
 }
 
 .logo-image {
-  height: 80px;
+  height: 230px; /* Increased from 80px */
   width: auto;
   border-radius: 8px;
   animation: fadeInUp 1s ease-out both;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Mobile responsive adjustment */
+@media (max-width: 768px) {
+  .logo-image {
+    height: 120px; /* Increased from 60px */
+  }
 }
 
 /* Category navigation buttons */
